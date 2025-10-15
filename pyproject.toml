@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "silentHillEnemy"
+version = "0.1.0"
+description = "Genetic programming pipelines for SIlent Hill-style creatures"
+authors = ["okno <pnhcan1@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-systems]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
